@@ -87,9 +87,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     'Sign up',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(
-                    width: 250,
-                  ),
+                  Spacer(),
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,

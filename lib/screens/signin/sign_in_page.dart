@@ -102,9 +102,7 @@ class _SignInPageState extends State<SignInPage> {
                     'Sign In',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(
-                    width: 250,
-                  ),
+                  Spacer(),
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
@@ -134,7 +132,7 @@ class _SignInPageState extends State<SignInPage> {
               style: TextStyle(decoration: TextDecoration.underline),
             ),
           ),
-          SizedBox(width: 250,),
+          SizedBox(width: 140,),
           InkWell(
             onTap: (){
             },
